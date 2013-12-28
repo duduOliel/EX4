@@ -3,9 +3,12 @@
 #include "Product.h"
 
 
-AgriculturalProduct::AgriculturalProduct(AgriculturalProductType agriculturalProductType):Product(ProductType::AGRICULTURAL)
+AgriculturalProduct::AgriculturalProduct(string name, int ripeSeasons, int providerAmount,Location location,Exposure exposure, AgriculturalProductType agriculturalProductType):Product(location, exposure, ProductType::AGRICULTURAL)
 {
 	_agriculturalProductType = agriculturalProductType;
+	setRipeSeasons(ripeSeasons);
+	_name = name;
+	_providersAmount = providerAmount;
 }
 
 AgriculturalProduct::~AgriculturalProduct(void)

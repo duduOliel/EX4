@@ -45,7 +45,7 @@ private:
 
 protected:
 	// Only subclasses can create this class in particular as a base class
-	Product(ProductType productType);
+	Product(Location location,Exposure exposure, ProductType productType);
 
 public:
 	// No copy constructor since there is no special copy requirements

@@ -9,7 +9,7 @@ class AgriculturalProduct :	public Product
 	public:
 		enum AgriculturalProductType
 		{
-			VEGITABLE = 1,
+			VEGETABLE = 1,
 			FRUIT
 		};
 
@@ -20,7 +20,7 @@ private:
 	int _providersAmount;
 
 public:
-	AgriculturalProduct(AgriculturalProductType agriculturalProductType);
+	AgriculturalProduct(string name, int ripeSeasons, int providerAmount,Location location,Exposure exposure, AgriculturalProductType agriculturalProductType);
 	virtual ~AgriculturalProduct(void);
 
 	// Accessors

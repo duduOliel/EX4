@@ -5,10 +5,13 @@
 // Static initialization
 int Product::nextSerial = 1;
 
-Product::Product(ProductType productType)
+Product::Product(Location location,Exposure exposure, ProductType productType)
 {
 	_productType = productType;
 	_serial = nextSerial++;
+	_location = location;
+	_quantity = 0;
+
 }
 
 
