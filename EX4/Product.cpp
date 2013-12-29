@@ -30,7 +30,7 @@ void Product::Location::setAisle(char aisle)
 	_aisle = aisle;
 }
 
-void Product::Location::setSelf(int shelf)
+void Product::Location::setShelf(int shelf)
 {
 	if (shelf < 0 || shelf > 5)
 	{

@@ -8,5 +8,6 @@ Fruit::Fruit(int sugarAmount, string name, int ripeSeasons, int providerAmount,L
 ostream& operator<<(ostream& out, const Fruit& obj)
 {
 	AgriculturalProduct agProduct = (AgriculturalProduct)obj;
-	out<<agProduct<<" ("<<obj._sugarAmount<<")"
+	out<<agProduct<<" ("<<obj._sugarAmount<<")";
+	return  out;
 }

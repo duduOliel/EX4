@@ -16,7 +16,7 @@ public:
 	public:
 		void setAisle(char aisle);
 		char getAisle() const {return _aisle;}
-		void setSelf(int shelf);
+		void setShelf(int shelf);
 		int getShelf() const {return _shelf;};
 		friend ostream& operator<<(ostream& out, const Location& obj);
 	};

@@ -81,6 +81,7 @@
     <ClInclude Include="AgriculturalProduct.h" />
     <ClInclude Include="Fruit.h" />
     <ClInclude Include="IllegalArgumentException.h" />
+    <ClInclude Include="Package.h" />
     <ClInclude Include="Product.h" />
     <ClInclude Include="Vegetable.h" />
   </ItemGroup>
@@ -89,6 +90,7 @@
     <ClCompile Include="Fruit.cpp" />
     <ClCompile Include="IllegalArgumentException.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Package.cpp" />
     <ClCompile Include="Product.cpp" />
     <ClCompile Include="Vegetable.cpp" />
   </ItemGroup>
