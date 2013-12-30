@@ -79,6 +79,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="AgriculturalProduct.h" />
+    <ClInclude Include="DairyProduct.h" />
     <ClInclude Include="Fruit.h" />
     <ClInclude Include="IllegalArgumentException.h" />
     <ClInclude Include="Product.h" />
@@ -86,6 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AgriculturalProduct.cpp" />
+    <ClCompile Include="DairyProduct.cpp" />
     <ClCompile Include="Fruit.cpp" />
     <ClCompile Include="IllegalArgumentException.cpp" />
     <ClCompile Include="main.cpp" />
