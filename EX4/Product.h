@@ -52,7 +52,7 @@ public:
 	
 	// Destructor
 	virtual ~Product(void);
-
+	
 	// Accessors
 	long getSerial() const {return _serial;}
 	void setLocation(const Location& location) {_location = location;}
