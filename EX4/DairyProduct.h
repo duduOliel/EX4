@@ -34,7 +34,7 @@ private:
 
 public:
 	DairyProduct(string name, DairyProductType dairyProductType, int colorsInBox, int fatPrecentage, Location location,Exposure exposure);
-	~DairyProduct(void);
+	virtual ~DairyProduct(void);
 
 	// Accessors
 	string getName() const { return _name; }
