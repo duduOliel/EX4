@@ -31,6 +31,10 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DairyProduct.h">
+    <ClInclude Include="Package.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -53,7 +57,14 @@
     <ClCompile Include="Fruit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="DairyProduct.cpp">
+=======
+    <ClCompile Include="Package.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Store.cpp">
+>>>>>>> d726459a740975d4f04b4b188d192d2da249ccf1
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

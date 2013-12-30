@@ -16,7 +16,7 @@ public:
 	public:
 		void setAisle(char aisle);
 		char getAisle() const {return _aisle;}
-		void setSelf(int shelf);
+		void setShelf(int shelf);
 		int getShelf() const {return _shelf;};
 		friend ostream& operator<<(ostream& out, const Location& obj);
 	};
@@ -52,7 +52,7 @@ public:
 	
 	// Destructor
 	virtual ~Product(void);
-
+	
 	// Accessors
 	long getSerial() const {return _serial;}
 	void setLocation(const Location& location) {_location = location;}

@@ -1,13 +1,23 @@
 #include <iostream>
+#include <string>
 #include "Product.h"
 #include "AgriculturalProduct.h"
 #include "IllegalArgumentException.h"
+#include "Package.h"
 
 using namespace std;
 
 void main()
 {
-	AgriculturalProduct p(AgriculturalProduct::AgriculturalProductType::FRUIT);
+	Product::Location loc;
+	loc.setAisle('a');
+	loc.setShelf(2);
+	string* names = new string[2];
+	names[0] ="sadfd";
+	names[1] = "aaa";
+	Package p (names,2,34,loc, Product::MAX);
+	cout<<p;
+	/*AgriculturalProduct p(AgriculturalProduct::AgriculturalProductType::FRUIT);
 	AgriculturalProduct q(AgriculturalProduct::AgriculturalProductType::FRUIT);
 
 	Product::Location loc;
@@ -26,5 +36,5 @@ void main()
 	catch(IllegalArgumentException e)
 	{
 		cout<<e;
-	}
+	}*/
 }
