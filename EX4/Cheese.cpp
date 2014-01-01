@@ -1,7 +1,7 @@
 #include "Cheese.h"
 
 
-const string Cheese::ADDINGS_RANGE_ERROR = "Addings for cheese must be positive";
+const string Cheese::ADDINGS_RANGE_ERROR = "Addings for cheese must be non-negative";
 
 
 Cheese::Cheese(string name, int colorsInBox, int fatPrecentage, Location location, Exposure exposure, int addingsQuantity)
