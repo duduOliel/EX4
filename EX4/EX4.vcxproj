@@ -81,6 +81,7 @@
     <ClInclude Include="AgriculturalProduct.h" />
     <ClInclude Include="Cheese.h" />
     <ClInclude Include="DairyProduct.h" />
+    <ClInclude Include="EnhancedDairyProduct.h" />
     <ClInclude Include="Fruit.h" />
     <ClInclude Include="IllegalArgumentException.h" />
     <ClInclude Include="Package.h" />
@@ -92,6 +93,7 @@
     <ClCompile Include="AgriculturalProduct.cpp" />
     <ClCompile Include="Cheese.cpp" />
     <ClCompile Include="DairyProduct.cpp" />
+    <ClCompile Include="EnhancedDairyProduct.cpp" />
     <ClCompile Include="Fruit.cpp" />
     <ClCompile Include="IllegalArgumentException.cpp" />
     <ClCompile Include="main.cpp" />
