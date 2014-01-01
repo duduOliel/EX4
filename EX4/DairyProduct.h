@@ -33,6 +33,8 @@ private:
 
 
 public:
+
+	// Ctor Dtor
 	DairyProduct(string name, DairyProductType dairyProductType, int colorsInBox, int fatPrecentage, Location location,Exposure exposure);
 	virtual ~DairyProduct(void);
 
