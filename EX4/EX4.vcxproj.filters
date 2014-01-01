@@ -62,11 +62,11 @@
   <ItemGroup>
     <Filter Include="Header Files">
       <UniqueIdentifier>{3ef5e8eb-292f-4015-8c0c-9df4ffcf97fd}</UniqueIdentifier>
-      <Extensions>*.h</Extensions>
+      <Extensions>h</Extensions>
     </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{95614f23-ada6-454d-b3c1-6a05d6726e96}</UniqueIdentifier>
-      <Extensions>*.cpp</Extensions>
+      <Extensions>cpp</Extensions>
     </Filter>
   </ItemGroup>
 </Project>
