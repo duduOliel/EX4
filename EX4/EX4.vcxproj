@@ -84,6 +84,7 @@
     <ClInclude Include="EnhancedDairyProduct.h" />
     <ClInclude Include="Fruit.h" />
     <ClInclude Include="IllegalArgumentException.h" />
+    <ClInclude Include="Includer.h" />
     <ClInclude Include="Package.h" />
     <ClInclude Include="Product.h" />
     <ClInclude Include="Store.h" />
