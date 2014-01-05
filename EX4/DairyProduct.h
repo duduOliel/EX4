@@ -1,3 +1,7 @@
+// DairyProduct.h
+// Programmer: Yuval Cohen
+// Id:		   204422505
+
 #pragma once
 #include "product.h"
 #include <string>

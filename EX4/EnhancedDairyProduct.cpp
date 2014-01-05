@@ -1,3 +1,7 @@
+// EnhancedDairyProduct.cpp
+// Programmer: Yuval Cohen
+// Id:		   204422505
+
 #include "EnhancedDairyProduct.h"
 
 // Error messages initialization

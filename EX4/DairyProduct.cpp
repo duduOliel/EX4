@@ -1,3 +1,7 @@
+// DairyProduct.cpp
+// Programmer: Yuval Cohen
+// Id:		  204422505
+
 #include "DairyProduct.h"
 
 // Error messages initialization 
