@@ -1,6 +1,6 @@
 #include "DairyProduct.h"
 
-// Error messages 
+// Error messages initialization 
 const string DairyProduct::PRECENTAGE_RANGE_ERROR = "Percentage given must be between 0 and 100";
 const string DairyProduct::NEGATIVE_COLORS_ERROR = "Amount of colors in boxing must be non-negative";
 
