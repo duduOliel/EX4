@@ -47,6 +47,6 @@ ostream& operator<<(ostream& out, const Product::Location& obj)
 
 ostream& operator<<(ostream& out, const Product& obj)
 {
-	out<<obj.getSerial()<<" "<<obj.getLocation()<<"("<<obj.getQuantity()<<","<<obj.getProductType()<<","<<obj.getExposure()<<")";
+	out<<obj.getSerial()<<" "<<obj.getLocation()<<"("<<obj.getQuantity()<<","<<obj.getProductType()<<","<<obj.getExposure()<<")" << endl;
 	return out;		
 }
