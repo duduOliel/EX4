@@ -1,6 +1,10 @@
 #pragma once
 #include "dairyproduct.h"
 #include <string>
+
+/************************************************************************/
+/* Represents a dairy product containing non-dairy componenets in store */
+/************************************************************************/
 class EnhancedDairyProduct : public DairyProduct
 {
 
