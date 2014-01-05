@@ -3,9 +3,15 @@
 #include <string>
 using namespace std;
 
+/************************************************************************/
+/* Represents a dairy product in the system with specified fat			*/
+/* percentage, sub-category of dairy product and number of colors in box*/
+/************************************************************************/
 class DairyProduct : public Product
 {
 	public:
+
+		// Sub-categories of dairy
 		enum DairyProductType
 		{
 			DRINK = 1,
