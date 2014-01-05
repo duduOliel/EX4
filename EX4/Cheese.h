@@ -1,5 +1,10 @@
 #pragma once
 #include "dairyproduct.h"
+
+/************************************************************************/
+/* Represents cheese type of product in the store with specified		*/
+/* addings to he cheese													*/
+/************************************************************************/
 class Cheese : public DairyProduct
 {
 private:
