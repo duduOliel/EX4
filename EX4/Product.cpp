@@ -11,7 +11,7 @@ Product::Product(Location location,Exposure exposure, ProductType productType)
 	_serial = nextSerial++;
 	_location = location;
 	_quantity = 0;
-
+	_exposure = exposure;
 }
 
 
